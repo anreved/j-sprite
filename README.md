@@ -8,40 +8,40 @@ java -jar jsprite.jar
 ```
 followed by any paramters.
 
-Shortcut|Full|Option|Description|Default Value
+Shortcut|Full|Description|Default Value
 --------|----|------|-----------|-------------
--u|--usage||the full help list (i.e., this information)|
+-u|--usage|the full help list (i.e., this information)|
 
 #### Directory Options
-Shortcut|Full|Option|Description|Default Value
---------|----|------|-----------|-------------
--l|--files||comma separated list of files to sprite|
--d|--dir||directory containing images to sprite|
--g|--regex||regular expression used to filter file names (used with -d flag only)|
--r|--recurse||if flag is present, the program will look in subdirectories for other image files|
--n|--hidden||include hidden subdirectories (used with -r flag only)|
+Shortcut|Full|Description|Default Value
+--------|----|-----------|-------------
+-l|--files|comma separated list of files to sprite|
+-d|--dir|directory containing images to sprite|
+-g|--regex|regular expression used to filter file names (used with -d flag only)|
+-r|--recurse|if flag is present, the program will look in subdirectories for other image files|
+-n|--hidden|include hidden subdirectories (used with -r flag only)|
 
 #### Sprite Options
 
-Shortcut|Full|Option|Description|Default Value
+Shortcut|Full|Description|Default Value
 --------|----|------|-----------|-------------
--o|--output||the output file	sprite.png|
--f|--format||the output format (e.g, png, jpeg, etc.)|PNG
--p|--padding||the number of pixels to skip between images|0
+-o|--output|the output file	sprite.png|
+-f|--format|the output format (e.g, png, jpeg, etc.)|PNG
+-p|--padding|the number of pixels to skip between images|0
 
 #### CSS Options
-Shortcut|Full|Option|Description|Default Value
---------|----|------|-----------|-------------
--c|--css||if flag is present, CSS will NOT be print|	
--e|--prefix||an optional prefix for the css class name|	
--t|--postfix||an optional postfix for the css class name|	
--s|--separator||the character used to separate prefix/postfix from classname (and to replace spaces in filenames)	- (dash)|
--a|--appendTo||if specified, will append the css styles to this file, instead of creating a new one|	
--x|--extra||extra CSS style(s) to be added (should be a quoted string or valid CSS styles)|	
--i|--inline||experimental use data URI scheme (as defined in RFC 2397) for inline images, instead of normal urls|	
--P|--imgPrefix||an optional URL for the CSS background attribute that will prefix the output name (from the -o option)|	
--U|--imgUrl||an optional URL for the CSS background attribute (the -o and -P flags will be ignored if this is specified)|	
--I|--important||if flag is present, "!important" flag will NOT be used for the background-position property|	
+Shortcut|Full|Description|Default Value
+--------|----|-----------|-------------
+-c|--css|if flag is present, CSS will NOT be print|	
+-e|--prefix|an optional prefix for the css class name|	
+-t|--postfix|an optional postfix for the css class name|	
+-s|--separator|the character used to separate prefix/postfix from classname (and to replace spaces in filenames)|- (dash)
+-a|--appendTo|if specified, will append the css styles to this file, instead of creating a new one|	
+-x|--extra|extra CSS style(s) to be added (should be a quoted string or valid CSS styles)|	
+-i|--inline|experimental use data URI scheme (as defined in RFC 2397) for inline images, instead of normal urls|	
+-P|--imgPrefix|an optional URL for the CSS background attribute that will prefix the output name (from the -o option)|	
+-U|--imgUrl|an optional URL for the CSS background attribute (the -o and -P flags will be ignored if this is specified)|	
+-I|--important|if flag is present, "!important" flag will NOT be used for the background-position property|	
 
 #### HTML Options
 Shortcut|Full|Option|Description|Default Value
