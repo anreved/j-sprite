@@ -50,14 +50,14 @@ Shortcut|Full|Description|Default Value
 -I|--important|if flag is present, "!important" flag will NOT be used for the background-position property|	
 
 #### HTML Options
-Shortcut|Full|Option|Description|Default Value
---------|----|------|-----------|-------------
--h|--html||generate a sample html file for the sprite|
+Shortcut|Full|Description|Default Value
+--------|----|-----------|-------------
+-h|--html|generate a sample html file for the sprite|
 
 #### Parameter Examples
 Below are parameter examples and their meaning. For full usage examples, scroll down further.
 
-Flag and Value|Meaning
+Flag / Value|Meaning
 --------------|----
 -f "image1.png, image2.jpeg, image3.gif"|sprite image1.png, image2.jpeg, and image3.gif
 -d .|select all images in the current directory
